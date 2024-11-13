@@ -1,0 +1,78 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.container {
+    background-color: rgb(61, 114, 175);
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.container-time {
+    background-color: rgb(88, 174, 245);
+    padding: 20px;
+    outline: 3px dashed #ffffff;
+    text-align: center;
+}
+
+.heading {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.heading-days {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.numero-telefone {
+    font-size: 20px;
+}
+
+.container-form {
+    padding: 20px;
+    color: rgb(20, 20, 20);
+}
+
+form {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.form-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input, select {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.btn {
+    background-color: rgb(20, 20, 20);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
